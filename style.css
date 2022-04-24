@@ -1,1 +1,153 @@
 /* The Odin Project Landing Page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 100px;
+    color: white;
+    background-color: #1F2937;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.right-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content-top {
+    background-color: #1F2937;
+    height: 400px;
+    padding:0 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-top img {
+    width: 500px;
+}
+
+.content-top h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.content-top p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-information {
+    min-height: 400px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-information h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.images-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 40px;
+}
+
+.content-information ul {
+    list-style-type: none;
+}
+
+.content-quote {
+    min-height: 400px;
+    padding: 0 200px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content-bottom {
+    padding: 0;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color:#3882F6;
+    color: #F9FAF8;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    padding: 10px 40px;
+    color: #F9FAF8;
+}
+
+.call-to-action-text h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+.footer {
+    color: white;
+    background-color: #1F2937;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
