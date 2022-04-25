@@ -10,6 +10,10 @@ body {
     flex-direction: column;
 }
 
+.rounded-corners {
+    border-radius: 6px;
+}
+
 .header {
     height: 100px;
     color: white;
@@ -38,6 +42,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .container {
@@ -49,10 +54,11 @@ body {
 .content-top {
     background-color: #1F2937;
     height: 400px;
-    padding:0 200px;
+    padding: 0 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 48px
 }
 
 .content-top img {
@@ -70,16 +76,36 @@ body {
     color: #E5E7EB;
 }
 
+.content-top button {
+    padding: 4px 26px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
 .content-information {
     min-height: 400px;
-    padding: 0;
+    padding: 0 200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .content-information h1 {
     text-align: center;
-    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.content-information img {
+    width: 200px;
+}
+
+.images-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 
 .images-list {
@@ -88,10 +114,6 @@ body {
     align-items: center;
     flex: 1;
     gap: 40px;
-}
-
-.content-information ul {
-    list-style-type: none;
 }
 
 .content-quote {
@@ -122,7 +144,7 @@ body {
 }
 
 .call-to-action {
-    background-color:#3882F6;
+    background-color: #3882F6;
     color: #F9FAF8;
     padding: 40px 100px;
     display: flex;
@@ -142,11 +164,12 @@ body {
     font-size: 36px;
     font-weight: 900;
 }
+
 .footer {
     color: white;
     background-color: #1F2937;
     height: 100px;
-    padding: 20px;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
