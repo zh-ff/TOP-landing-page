@@ -56,13 +56,13 @@ body {
     height: 400px;
     padding: 0 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 48px
 }
 
 .content-top img {
-    width: 500px;
+    width: 440px;
 }
 
 .content-top h1 {
@@ -98,13 +98,13 @@ body {
 }
 
 .content-information img {
-    width: 200px;
+    width: 260px;
 }
 
 .images-block {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 60px;
 }
 
