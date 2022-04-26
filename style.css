@@ -62,7 +62,9 @@ body {
 }
 
 .content-top img {
-    width: 440px;
+    height: 280px;
+    width: 460px;
+    object-fit: cover;
 }
 
 .content-top h1 {
@@ -99,6 +101,10 @@ body {
 
 .content-information img {
     width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 14px;
 }
 
 .images-block {
@@ -108,12 +114,9 @@ body {
     align-items: flex-end;
 }
 
-.images-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    gap: 40px;
+.images-block p {
+    font-family: Roboto, Arial;
+    text-align: center;
 }
 
 .content-quote {
