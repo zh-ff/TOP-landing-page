@@ -86,7 +86,7 @@ body {
 
 .content-information {
     min-height: 400px;
-    padding: 0 200px;
+    padding: 20px 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,14 +98,14 @@ body {
 }
 
 .content-information img {
-    width: 260px;
+    width: 240px;
 }
 
 .images-block {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
     align-items: flex-end;
-    gap: 60px;
 }
 
 .images-list {
